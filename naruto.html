@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type = "text/javascript" src = "naruto.js"></script>
+        <style type = "text/css" rel = "stylesheet" href = "style.css"></style>
+    </head>
+    <body>
+        <p class = "links"> <a class = "admin" href = "login.html"> logout </a>
+
+        <form method = "POST" action = "naruto.php">
+            <div class = "format" >
+                <fieldset>
+                    <div class = "head">
+                        <label> 1. At what age did Itachi Uchiha become an Anbu Captain?
+                    </div><br>
+                        <input type = "radio" value = "9" name = "age">8<br>
+                        <input type = "radio" value = "7" name = "age">7<br>
+                        <input type = "radio" value = "10" name = "age">10<br>
+                        <input type = "radio" value = "13" name = "age">13
+                    </label>
+                </fieldset>
+            </div>
+            <br><br>
+            <div class = "format" >
+                <fieldset>
+                    <div class = "head">
+                    <label> 2. True or False. Jiraiya came up with the name
+                                    Naruto while eating ramen.</label>
+                    </div><br>
+                        <input type = "radio" value = "true" name = "t/f">True
+                        <input type = "radio" value = "false" name = "t/f">False
+                    </label>
+                </fieldset>
+            </div>
+            <br><br>
+            <div class = "format" >
+                <fieldset>
+                    <div class = "head">
+                    <label> 3. Name the tail beast that was inside Gaara.
+                        </div><br> The tailed beast: 
+                        <input type="text" id = "beast" name = "beast" maxlength="7">
+                    </label>
+                </fieldset>
+            </div>
+            <br><br>
+            <div class = "format" >
+                <fieldset>
+                    <div class = "head">
+                    <label> 4. True or False. Orochimaru was part of the Akatsuki.
+                    </div><br>
+                        <input type = "radio" value = "true" name = "tru/fls">True
+                        <input type = "radio" value = "false" name = "tru/fls">False
+                    </label>
+                </fieldset>
+            </div>
+            <br><br>
+            <div class = "format" >
+                <fieldset>
+                    <div class = "head">
+                    <label> 5. Which of the following is not a Kekkei Genkai?
+                    </div><br>
+                        <input type="radio" value="sharingan" name = "kg">Sharingan<br>
+                        <input type="radio" value="tenseigan" name = "kg">Tenseigan<br>
+                        <input type="radio" value="third eye" name = "kg">Third Eye<br>
+                        <input type="radio" value="wood style" name = "kg">Wood Style
+                    </label>
+                </fieldset>
+            </div>
+            <br><br>
+            <div class = "format" >
+                <fieldset>
+                    <div class = "head">
+                    <label> 6. Which of the following is not a Tailed Beast?
+                    </div><br>
+                        <input type ="radio" name="tail" value="gamabunta">Gamabunta<br>
+                        <input type = "radio" name = "tail" value="son goku">Son Goku<br>
+                        <input type="radio" name="tail" value="kurama">Kurama<br>
+                        <input type ="radio" name="tail" value="gyuuki">Gyuuki<br>
+                    </label>
+                </fieldset>
+            </div>
+            <br><br>
+            <div class = "click" >
+                <input type="submit" value="Submit" id="calculate">&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Reset" id="reset">
+            </div>
+        </form>
+    </body>
+</html>
